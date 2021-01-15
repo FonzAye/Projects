@@ -1,0 +1,40 @@
+#zhop{
+  color: blue;
+}
+.profile-card{
+  z-index: 99;
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+.image-container{
+}
+.info{
+  color: #4f4fe2;
+  margin: 15px;
+}
+.main-container{
+  padding: 20px;
+}
+.skill-bar{
+  background-color: #bdc9ea;
+  border-radius: 16px;
+}
+.progress-bar{
+  padding: 0.1em 16px;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #4b4fe2;
+}
+.title{
+  padding-left: 15px;
+  left: 15px;
+  bottom: 0;
+}
+
+.main-container p {
+  margin: 15px;
+}

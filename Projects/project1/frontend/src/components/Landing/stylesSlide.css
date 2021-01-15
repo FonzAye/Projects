@@ -1,0 +1,42 @@
+.slideComponent{
+  font-family: 'Courier Prime', monospace;
+}
+
+.intro{
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text{
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.slider{
+  background: #6c98da;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform: translateY(100%);
+}
+
+.hide{
+  background: black;
+  overflow: hidden;
+}
+
+.hide span{
+  transform: translateY(100%);
+  display: inline-block;
+}

@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  }
+
+  body {
+    background: #2193b0; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #2193b0, #6dd5ed); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #2193b0, #6dd5ed);
+      font-family: "Muli";
+}
+.landing img{
+  margin-top: 150px;
+}
+.landing h4{
+  margin-bottom: 20px;
+}
+.landing {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.landing a {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #101010;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+.landing a:hover {
+  color: #101010;
+}
+.landing a:hover span.bg {
+  width: 110%;
+}
+.landing a:hover span.text:after {
+  background: #ece8e1;
+}
+.landing a:after, .landing a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.landing a:before {
+  right: 0;
+  left: initial;
+}
+.landing a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.landing a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid #0f1923;
+}
+.landing a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+}
+.landing a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffefba, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  transition: 0.3s ease-out all;
+  transform: skewX(-10deg);
+}
+.landing a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.landing a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}

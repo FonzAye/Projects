@@ -1,0 +1,24 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "back-end",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "author": "FS",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonfile": "^6.1.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
+}
